@@ -1,0 +1,17 @@
+{
+    "development": {
+        "mongodb": {
+            "database": "mongodb://localhost/wevo"
+        }
+    },
+    "test": {
+        "mongodb": {
+            "database": "mongodb://localhost/wevo"
+        }
+    },
+    "production": {
+        "mongodb": {
+            "database": "mongodb://localhost/wevo"
+        }
+    }
+}
