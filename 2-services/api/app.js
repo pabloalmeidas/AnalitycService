@@ -1,3 +1,4 @@
+// TESTE //
 /* global _tempoAtualizacaoDispositivos */
 /* global apicache */
 /* global __dirDomain */
