@@ -6,7 +6,6 @@ var path                      = require('path');
 var logger                    = require('morgan');
 var cookieParser              = require('cookie-parser');
 var bodyParser                = require('body-parser');
-var mysql                     = require("mysql");
 var crypto                    = require("crypto");
 var multipart                 = require('connect-multiparty')
 var cors                      = require('cors');
@@ -54,7 +53,7 @@ app.use(allowsCors);
 // Rotas / Controllers
 // ======================================================================
 //
-app.use('/analytics/orders/',    require('./controllers/ordersController'));
+app.use('/analitycs/orders/',    require('./controllers/ordersController'));
 
 
 
